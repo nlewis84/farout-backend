@@ -1,4 +1,4 @@
 class Picture < ApplicationRecord
-    has_many :likes
+    has_one :vote
     validates :title, :url, :description, :date, presence: true
 end
