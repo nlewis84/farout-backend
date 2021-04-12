@@ -2,7 +2,7 @@ class Api::V1::PicturesController < ApplicationController
 
     def index
         @pictures = Picture.all
-        render json: @pictures, include: [:title, :url, :description, :date]
+        render json: @pictures
     end
 
     def create
@@ -19,14 +19,10 @@ class Api::V1::PicturesController < ApplicationController
         render json: @picture
     end
 
-    def destroy
-        Picture.find(params[:id]).destroy
-    end
-
     private
 
     def picture_params
-        params.require(:picture).permit(:title, :url, :description, :date)
+        params.require(:picture).permit(:title, :url, :explanation, :date)
     end
 
 end

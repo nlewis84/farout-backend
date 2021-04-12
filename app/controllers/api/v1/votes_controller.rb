@@ -3,12 +3,12 @@ class Api::V1::VotesController < ApplicationController
     before_action :set_picture
 
     def index
-        @votes = @picture.votes
-        render json: @votes
+        @vote = @picture.vote
+        render json: @vote
     end
 
     def create
-        @vote = @picture.votes.build
+        @vote = @picture.vote.build
         if @vote.save
             render json: @vote
         else
