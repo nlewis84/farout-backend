@@ -4,7 +4,7 @@ class CreatePictures < ActiveRecord::Migration[6.1]
       t.string :title
       t.string :url
       t.string :description
-      t.datetime :date
+      t.date :date
 
       t.timestamps
     end

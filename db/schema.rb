@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_04_11_221232) do
     t.string "title"
     t.string "url"
     t.string "explanation"
-    t.datetime "date"
+    t.date "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
