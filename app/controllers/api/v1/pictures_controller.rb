@@ -1,7 +1,7 @@
 class Api::V1::PicturesController < ApplicationController
 
     def index
-        @pictures = Picture.all
+        @pictures = Picture.find(Picture.pluck(:id).sample(2))
         render json: @pictures
     end
 
