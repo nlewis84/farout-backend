@@ -24,7 +24,9 @@ class Api::V1::VotesController < ApplicationController
     def update
         @vote = Vote.find(params[:picture_id])
         @vote.update(vote_params)
-        render json: @vote
+        @pictures = Picture.all
+        render json: @pictures
+
     end
 
     private
