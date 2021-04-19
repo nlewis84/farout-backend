@@ -25,8 +25,9 @@ class Api::V1::PicturesController < ApplicationController
     end
 
     def newest
-        @pictures = Picture.find(Picture.pluck(:id).sample(2))
-        render json: @pictures
+        binding.pry
+        @picture = Picture.newest.limit(1)
+        render json: @picture
     end
 
     private
