@@ -3502,3 +3502,9 @@ seed_data.each do |hash|
     
     p.build_vote(count: 0).save
 end
+
+# pictures = Picture.where("url like?", "%https://www.youtube.com%")  
+
+# pictures.each do |p|
+#     p.destroy
+# end
