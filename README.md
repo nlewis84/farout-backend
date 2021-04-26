@@ -6,9 +6,13 @@ Welcome to the Far Out web application (backend)! It utilizes a Rails API and a 
 
 - Rails version 6.1.3
 
+## :satellite: Video Demo
+
+[See it in action here!](https://youtu.be/3SRwopQNobY)
+
 ## :milky_way: Installation
 
-- Download or clone this project as well as the [Far Out Frontend project](https://github.com/nlewis84/farout-frontend)
+Download or clone this project as well as the [Far Out Frontend project](https://github.com/nlewis84/farout-frontend)
 
 ## :flying_saucer: Usage
 
