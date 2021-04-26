@@ -19,6 +19,7 @@ Welcome to the Far Out web application (backend)! It utilizes a Rails API and a 
 - Run `rake db:seed`
 - Run `rails s`
 - Open your browser and navigate to the local url provided by the `rails` server
+- Ensure that the [frontend](https://github.com/nlewis84/farout-frontend) is installed and that the react-scripts server is running
 
 ## :artificial_satellite: Contributing
 
