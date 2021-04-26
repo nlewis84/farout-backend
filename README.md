@@ -6,11 +6,11 @@ Welcome to the Far Out web application (backend)! It utilizes a Rails API and a 
 
 - Rails version 6.1.3
 
-## Installation
+## :milky_way: Installation
 
 - Download or clone this project as well as the [Far Out Frontend project](https://github.com/nlewis84/farout-frontend)
 
-## Usage
+## :flying_saucer: Usage
 
 - `cd` into the project directory
 - Run `bundle install`
@@ -20,10 +20,10 @@ Welcome to the Far Out web application (backend)! It utilizes a Rails API and a 
 - Run `rails s`
 - Open your browser and navigate to the local url provided by the `rails` server
 
-## Contributing
+## :artificial_satellite: Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/nlewis84/farout-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/nlewis84/farout-backend/blob/main/CODE_OF_CONDUCT.md).
 
-## Code of Conduct
+## :last_quarter_moon_with_face: Code of Conduct
 
 Everyone interacting in the Far Out project's codebases, and issue trackers is expected to follow the [code of conduct](https://github.com/nlewis84/farout-backend/blob/main/CODE_OF_CONDUCT.md).
