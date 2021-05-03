@@ -3,6 +3,7 @@ class Api::V1::VotesController < ApplicationController
     before_action :set_picture
 
     def update
+        binding.pry
         @vote = Vote.find(params[:picture_id])
         @vote.update(vote_params)
         @pictures = Picture.find(Picture.pluck(:id).sample(2))
