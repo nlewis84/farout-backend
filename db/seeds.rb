@@ -3503,14 +3503,8 @@ seed_data.each do |hash|
     p.build_vote(count: 0).save
 end
 
-collection = Picture.select("id").where("url LIKE ?", "%https://www.youtube%")
+# pictures = Picture.where("url like?", "%https://www.youtube.com%")  
 
-collection.each do |p|
-    p.destroy
-end
-
-collection = Picture.select("id").where("url LIKE ?", "%player.vimeo%")
-
-collection.each do |p|
-    p.destroy
-end
+# pictures.each do |p|
+#     p.destroy
+# end
