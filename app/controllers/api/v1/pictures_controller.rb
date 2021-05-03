@@ -6,7 +6,7 @@ class Api::V1::PicturesController < ApplicationController
     end
 
     def top
-        @pictures = Picture.top.limit(5)
+        @pictures = Picture.top
         render json: @pictures
     end
 
