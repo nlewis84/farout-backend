@@ -7,6 +7,7 @@ class Api::V1::PicturesController < ApplicationController
 
     def top
         @pictures = Picture.top.limit(5)
+        binding.pry
         render json: @pictures
     end
 
