@@ -11,8 +11,13 @@ class Api::V1::PicturesController < ApplicationController
     end
 
     def newest
-        @picture = Picture.newest.limit(1)
-        render json: @picture
+        @pictures = Picture.newest.limit(3)
+        render json: @pictures
+    end
+
+    def filter
+        @pictures = Picture.all
+        render json: @pictures
     end
 
     private
